@@ -32,6 +32,9 @@ Think about how to make a modification for the following:
 
 ```
 Your thought here
+-The data may be exposed accidentally.
+-Modify the configuration file or code to specify port 9090 instead of 8080
+- You'll need to make sure that your server is rendering the content correctly and that the content is being properly escaped.
 ```
 
 

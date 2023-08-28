@@ -11,7 +11,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
 //TODO: add @WebServlet annotation with urlPatterns = "/sum"
-@WebServlet("/sum")
+@WebServlet(urlPatterns = "/sum")
 public class CalculatorServlet extends HttpServlet{
     @Override
     protected void doGet(HttpServletRequest request,
